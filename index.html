@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_left">
+        <img
+          src="./icons/cloud-showers-heavy.svg"
+          class="weather_icon large"
+          data-current-icon
+        />
+        <div class="header-current-temp">
+          <span data-weather-temp>22</span>&deg;
+        </div>
+      </div>
+      <div class="header_right">
+        <div class="info-group">
+          <div class="label">HIGH</div>
+          <div><span data-current-high>32</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">FL High</div>
+          <div><span data-current-fl-high>32</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Wind</div>
+          <div><span data-current-wind>32</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Low</div>
+          <div><span data-current-low>32</span><span class="info-sub-un"> kph </span></div>
+        </div>
+        <div class="info-group">
+          <div class="label">FL Low</div>
+          <div><span data-current-fl-low>32</span>&deg;</div>
+        </div>
+        <div class="info-group">
+          <div class="label">Precip</div>
+          <div><span data-current-precip>32</span><span class="info-sub-un">m</span></div>
+        </div>
+      </div>
+    </header>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
